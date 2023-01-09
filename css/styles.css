@@ -676,7 +676,7 @@ backdrop.is-hidden .modal {
  }
 
  .input-email:focus {
-   border: 1px solid #9747FF;
+   border: 1px solid #404BBF;
    outline: transparent;
  }
 
@@ -752,8 +752,8 @@ backdrop.is-hidden .modal {
 
  /* ----------------Backdrop Form----------------- */
 
- .modal-form {
-   padding: 72px 24px 24px 24px;
+ .modal {
+  padding: 72px 24px 24px 24px;
  }
 
  .uni-form input:focus {
@@ -788,21 +788,21 @@ backdrop.is-hidden .modal {
  }
 
  .uni-form-name label {
-  
+  font-weight: 400;
    font-size: 12px;
    line-height: calc(16 / 12);
    letter-spacing: 0.04em;
-   color: #8E8F99;
+   color: #757575;
    margin-top: 0;
    margin-bottom: 4px;
  }
 
  .uni-form label {
-   
+   font-weight: 400;
    font-size: 12px;
    line-height: calc(16 / 12);
    letter-spacing: 0.04em;
-   color: #8E8F99;
+   color: #757575;
    margin-top: 8px;
    margin-bottom: 4px;
  }
@@ -924,7 +924,7 @@ backdrop.is-hidden .modal {
  }
 
  .content-checkbox {
-   
+   font-weight: 400;
    color: #757575;
    margin-top: 16px;
    font-size: 12px;
@@ -934,16 +934,14 @@ backdrop.is-hidden .modal {
  }
 
  .link-chechbox {
-   
+   font-weight: 400;
    font-size: 12px;
    line-height: calc(16 / 12);
    letter-spacing: 0.04em;
+   color: #4D5AE5;
  }
 
- .link-chechbox:hover,
- .link-chechbox:focus {
-   color: var(--color-primary-brand);
- }
+ 
 
  .button-modal-send {
    padding: 16px 32px 16px 32px;
